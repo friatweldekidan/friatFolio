@@ -1,37 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio Website
+Overview
+This is my personal portfolio website built using Next.js and Tailwind CSS. It showcases my skills, projects, and experiences to potential employers or collaborators. The website is designed to be responsive and easily accessible across various devices.
 
-## Getting Started
+# Features
+## Responsive Design: 
+Utilizes Tailwind CSS for a mobile-first approach, ensuring a seamless experience across devices.
+## Dynamic Routing: 
+Next.js enables dynamic routing, allowing for easy creation of new pages and sections.
+## Project Showcase:
+Displays a selection of my projects with descriptions, technologies used, and links to GitHub or live demos.
+## Blog Section:
+Contains my blogs.
+## Contact Form: 
+Provides a way for visitors to get in touch with me directly through a contact form.
 
-First, run the development server:
+# Technologies Used
+## Next.js:
+A React framework for building server-rendered and statically-generated applications.
+## Tailwind CSS: 
+A utility-first CSS framework for building custom designs quickly.
+## React:
+A JavaScript library for building user interfaces.
+## JavaScript (ES6+): 
+The primary scripting language for interactivity and functionality.
+## Git:
+Version control system for tracking changes and collaborating with others.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# Getting Started
+Clone the Repository: (https://github.com/friatweldekidan/friatFolio.git)
+Install Dependencies: cd portfolio && npm install
+Run Development Server: npm run dev
+Open Browser: Visit http://localhost:3000 to view the website locally.
+Usage
+Customize it to your own way.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Credits
+Next.js: https://nextjs.org/
+Tailwind CSS: https://tailwindcss.com/
+React: https://reactjs.org/
+Icons: https://heroicons.com/
+Chatgpt: https://chat.openai.com/
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# friatFolio
+Author
+Frait Weldekidan
