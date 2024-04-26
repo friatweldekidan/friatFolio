@@ -48,4 +48,4 @@ Icons: https://heroicons.com/
 Chatgpt: https://chat.openai.com/
 
 Author
-Frait Weldekidan
+Friat Weldekidan
