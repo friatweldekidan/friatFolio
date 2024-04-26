@@ -1,5 +1,4 @@
-"use client";
-
+'use client'
 import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -36,8 +35,8 @@ export default function Experience() {
   };
 
   return (
-    <div className="container mx-auto px-12 py-16 flex justify-center">
-      <div className="max-w-3xl">
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div className="max-w-2xl mx-auto">
         <Slider {...sliderSettings}>
           {experiences.map((experience) => (
             <div
