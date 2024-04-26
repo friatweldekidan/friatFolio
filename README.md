@@ -9,8 +9,10 @@ Utilizes Tailwind CSS for a mobile-first approach, ensuring a seamless experienc
 Next.js enables dynamic routing, allowing for easy creation of new pages and sections.
 ## Project Showcase:
 Displays a selection of my projects with descriptions, technologies used, and links to GitHub or live demos.
+## Experience Section: 
+Provides information about my work experience, including previous roles, responsibilities, and achievements.
 ## Blog Section:
-Contains my blogs.
+Features blog posts on topics related to technology, development, and personal experiences.
 ## Contact Form: 
 Provides a way for visitors to get in touch with me directly through a contact form.
 
@@ -27,11 +29,15 @@ The primary scripting language for interactivity and functionality.
 Version control system for tracking changes and collaborating with others.
 
 # Getting Started
-Clone the Repository: (https://github.com/friatweldekidan/friatFolio.git)
-Install Dependencies: cd portfolio && npm install
-Run Development Server: npm run dev
-Open Browser: Visit http://localhost:3000 to view the website locally.
-Usage
+## Clone the Repository: 
+https://github.com/friatweldekidan/friatFolio.git
+## Install Dependencies: 
+cd portfolio && npm install
+## Run Development Server:
+npm run dev
+## Open Browser: 
+Visit http://localhost:3000 to view the website locally.
+# Usage
 Customize it to your own way.
 
 # Credits
