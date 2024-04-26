@@ -32,7 +32,7 @@ Version control system for tracking changes and collaborating with others.
 ## Clone the Repository: 
 https://github.com/friatweldekidan/friatFolio.git
 ## Install Dependencies: 
-cd portfolio && npm install
+cd friat-folio && npm install
 ## Run Development Server:
 npm run dev
 ## Open Browser: 
