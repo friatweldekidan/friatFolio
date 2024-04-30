@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 export default function Home() {
   
   return (
-    <div className="min-h-[379px] pt-12 bg-cover bg-center bg-no-repeat" style={{backgroundImage: `url('/assets/img/bg.jpg')`}}>
+    <div className="min-h-[379px] pt-12 bg-cover bg-center bg-no-repeat" style={{backgroundImage: `url('assets/img/bg.jpg')`}}>
       <div className="max-w-4xl mx-auto font-mono">
         <motion.p
           initial={{ opacity: 0 }}
