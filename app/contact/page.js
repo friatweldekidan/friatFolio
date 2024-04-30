@@ -25,7 +25,7 @@ export default function Contact() {
       </div>
       <div className="md:w-1/4 lg:w-2/5">
         <p className="text-lg leading-relaxed mb-4 italic">
-          I'm always looking for new and exciting projects to work on, let's get
+          I&apos;m always looking for new and exciting projects to work on, let&apos;s get
           in touch!
         </p>
         <form

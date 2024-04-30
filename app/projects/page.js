@@ -3,6 +3,7 @@
 import React from "react";
 import Slider from "react-slick";
 import { ExternalLinkIcon } from "@heroicons/react/outline";
+import Image from "next/image";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -14,7 +15,7 @@ const projects = [
       "Crafted with Next.js and Tailwind CSS, this portfolio adheres to a clean black and white design. Explore my projects and experiences seamlessly, reflecting my web development skills with elegance and simplicity.",
     githubLink: "https://github.com/friatweldekidan/friatFolio",
     liveSiteLink: "https://www.freeyat.com/",
-    image: "assets/img/portfolio1.jpg",
+    image: "assets/img/portfolio1.jpg", 
   },
   {
     id: 2,
@@ -23,7 +24,7 @@ const projects = [
       "As part of my bootcamp experience, Netflix clone using React.js with API integration, allowing dynamic fetching of movie data. Deployed using Firebase.",
     githubLink: "https://github.com/friatweldekidan/netflix-react-2023",
     liveSiteLink: "https://netflix-clone-2023-a2a01.web.app",
-    image: "assets/img/portfolio2.jpg",
+    image: "assets/img/portfolio2.jpg", 
   },
   // Add more projects as needed
 ];
@@ -43,12 +44,12 @@ export default function Projects() {
         <Slider {...sliderSettings}>
           {projects.map((project) => (
             <div key={project.id} className="bg-white rounded-lg shadow-lg p-6">
-              <img
+              <Image
                 src={project.image}
                 alt={project.title}
-                className="mb-4 mx-auto"
                 width={160}
                 height={150}
+                className="mb-4 mx-auto"
               />
               <h2 className="text-xl font-semibold mb-4">{project.title}</h2>
               <p className="text-gray-800 mb-4">{project.description}</p>
