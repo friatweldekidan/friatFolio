@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 export default function Home() {
   
   return (
-    <div className="min-h-[379px] pt-12 bg-cover bg-center bg-no-repeat" style={{backgroundImage: `url("assets/img/bg.jpg")`}}>
+    <div className="min-h-[379px] pt-12  bg-cover bg-right sm:bg-contain bg-no-repeat" style={{backgroundImage: `url("assets/img/bg.jpg")`}}>
       <div className="max-w-4xl mx-auto font-mono">
         <motion.p
           initial={{ opacity: 0 }}
@@ -14,7 +14,7 @@ export default function Home() {
           transition={{ duration: 7.0 }}
           className="text-center text-gray-800 text-4xl"
         >
-          Hello, I am Friat Weldekidan.
+          Hello, I am Friat Weldekidan
         </motion.p>    
           <motion.p
             initial={{ opacity: 0 }}
