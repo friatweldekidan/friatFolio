@@ -26,7 +26,15 @@ const projects = [
     liveSiteLink: "https://netflix-clone-2023-a2a01.web.app",
     image: "assets/img/portfolio2.jpg", 
   },
-  // Add more projects as needed
+  {
+    id: 3,
+    title: "Single Page Portfolio website",
+    description:
+      "This project is a single-page personal website built using Next.js and deployed on Vercel, designed to showcase my professional background, educational qualifications, certifications, portfolio, and contact information, with additional features like a dark/light mode toggle, social media share button, and a visually appealing design.",
+    githubLink: "https://github.com/friatweldekidan/sample-portfolio",
+    liveSiteLink: "https://sample-portfolio-9fxb.vercel.app/",
+    image: "assets/img/portfolio1.jpg", 
+  },
 ];
 
 export default function Projects() {
