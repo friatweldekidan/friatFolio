@@ -65,7 +65,7 @@ export default function Blog() {
   };
 
   return (
-    <div className="max-w-3xl mx-auto px-24 py-12">
+    <div className="max-w-3xl mx-auto px-24 py-12 h-[480px]">
       <Slider {...settings}>
         {posts.map((post) => (
           <div key={post.id} className="bg-white shadow-md p-6">

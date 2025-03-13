@@ -7,7 +7,7 @@ import {
 
 export default function Contact() {
   return (
-    <div className="flex flex-col md:flex-row justify-center md:gap-6 lg:gap-8 pt-4">
+    <div className="flex flex-col md:flex-row justify-center md:gap-6 lg:gap-8 pt-4 h-[480px]">
       <div className="md:w-1/4 lg:w-1/5 pt-2 md:pl-4 md:pr-8">
         <address>
           <p className="text-2xl mb-8">CONTACT ME</p>

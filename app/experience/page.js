@@ -23,6 +23,15 @@ const experiences = [
     description:
       "At Trust ICT Solutions, I convert Figma designs of coffee website into web pages using React.js and Tailwind CSS. I work closely with the design team and the development team, ensuring faithful implementation of the UI/UX.",
   },
+  {
+    id: 3,
+    title: "Frontend Developer",
+    company: "iCog",
+    startDate: "July 2024",
+    endDate: "February 2025",
+    description:
+      "Translated Figma designs into fully functional, responsive front-end components using HTML, CSS, JavaScript, and React.js, collaborating with the design team to ensure pixel-perfect implementation of UI/UX elements. Optimized front-end performance, ensured cross-browser compatibility, and engaged with back-end developers to integrate APIs and enhance functionality."
+  },
 ];
 
 export default function Experience() {
@@ -35,7 +44,7 @@ export default function Experience() {
   };
 
   return (
-    <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 h-[480px]">
       <div className="max-w-2xl mx-auto">
         <Slider {...sliderSettings}>
           {experiences.map((experience) => (

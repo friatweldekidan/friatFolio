@@ -47,7 +47,7 @@ export default function Projects() {
   };
 
   return (
-    <div className="container mx-auto px-4 py-4">
+    <div className="container mx-auto p-4 h-[480px]">
       <div className="max-w-2xl mx-auto">
         <Slider {...sliderSettings}>
           {projects.map((project) => (
